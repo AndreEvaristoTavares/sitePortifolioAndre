@@ -1,23 +1,4 @@
-@media(max-width:500px) {
 
-    #container,
-    aside {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    aside div {
-        width: 100%;
-        min-width: 300px;
-        padding: 0;
-        margin: 10px;
-        height: 250px;
-    }
-
-}
 
 @media (max-width: 720px) {
     #container {
@@ -37,8 +18,14 @@
     }
 
     aside div {
-        width: 70%;
+        width: 90%;
 
+    }
+    aside div:nth-child(3n){
+        height: 420px;
+    }
+    aside div:nth-child(3n) ul li{
+        font-size: 20px;
     }
 }
 
