@@ -1,5 +1,3 @@
-
-
 @media (max-width: 720px) {
     #container {
         width: 100%;
@@ -21,10 +19,12 @@
         width: 90%;
 
     }
-    aside div:nth-child(3n){
+
+    aside div:nth-child(3n) {
         height: 420px;
     }
-    aside div:nth-child(3n) ul li{
+
+    aside div:nth-child(3n) ul li {
         font-size: 20px;
     }
 }
